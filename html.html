@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>taha</title>
+</head>
+<body>
+    <div class="taha">
+        <p>my name is taha and am programmer</p>
+    </div>
+    <button v-text="my name is taha and iam programmer"></button>
+    <div class="taha">
+        <button class="name">learn more</button>
+    </div>
+    <p v-if="name">my name is taha and iam  window{{saytaha}}</p>
+</body>
+<script src="js/vue.js"></script>
+<script>
+    var vm = new Vue({
+        ta:"my name is taha and iam programmer",
+        data:{
+        name:"my name is taha and iam progammer",
+        },
+   
+    })
+    var vm = new vue({
+    na:".name",
+    saysomethings:function name(){
+        console.log("my name is taha and iam programmer")
+    },
+    completedTests:[
+        {
+            name:'hellow world',
+            age:`my age is ${this.age}`,
+            country:`i live in lebanon the world of die the dream`,
+        },
+        {
+            name:'hello taha',
+            country:`your country is${this.country}`,
+            test1:"let my name is taha.country"
+        }
+    ]
+    })
+    var vm=new Vue({
+      element:"my name is taha"  ,
+      methods: {
+       saytaha:function(){
+           this.name="my name is taha"
+       }
+      },
+    })

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="taha">
+        <h1>my name is taha and iam programmer</h1>
+        <p id="taha524">
+            taha
+        </p>
+        <input type="text" v-model="tahakourani">
+        <h2>my name is taha ad iam programm{{name}}</h2>
+    </div>
+</body>
+<script type="module">
+    import Vue from 'https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.esm.browser.js'
+</script>
+<script>
+    var vm = new vue({
+        ta: "#taha",
+        data: {
+            name: "my name is taha and iam programmer",
+            username: "tahakourani"
+        },
+        computed: {
+            validateUsername: function() {
+                if (!this.username) {
+                    return usercanbeempty
+                } else if (username.length > 8) {
+                    return usernameistochort
+                } else if (password.length > 0) {
+                    return helloworld
+                } else {
+                    return 'hello' + username + 'am live in lebanon and am working at programmer'
+                }
+            }
+        }
+    }
+    })
+</script>
+
+</html>
